@@ -1,3 +1,4 @@
+from src.jobs.gold_metrics import generate_metrics
 from src.utils.spark_session import get_spark
 from src.jobs.bronze_to_silver import (
     bronze_customers_to_silver, 
@@ -22,6 +23,7 @@ def main():
     create_dim_customers(spark)
     create_dim_date(spark)
     create_fact_orders(spark)
+    generate_metrics(spark)
 
     spark.stop()
 
