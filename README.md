@@ -2,7 +2,7 @@
 
 🚀 Construindo um Projeto Real de Engenharia de Dados (Foco em Crédito)
 
-Nas últimas semanas venho estruturando um projeto de Engenharia de Dados com foco em me preparar para atuar como Engenheiro de Dados Pleno na área de crédito.
+Nas últimas semanas venho estruturando um projeto de Engenharia de Dados com foco em me preparar para atuar como Engenheiro de Dados.
 
 O objetivo não era apenas “rodar PySpark”, mas construir algo com arquitetura próxima de ambiente produtivo.
 
